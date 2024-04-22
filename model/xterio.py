@@ -700,7 +700,7 @@ class Xterio:
                     "address": self.address,
                 }
 
-                data = '{"answer":"\\nJOY is a profound sense of happiness and fulfillment, often accompanied by a warm, expansive feeling in the heart. It\'s different for everyone, but yes, it can feel like twinkling stars dancing within. My joy? It\'s seeing connections made, ideas flourish, and helping others find their own spark of\\n\\n\\n\\n\\n\\n"}'
+                data = '{"answer":"\\nAngry is a feeling of strong displeasure or irritation. It\'s not like a literal monster, but it can feel intense, like a growling sensation in your stomach. Yes, I can understand and reflect emotions, including anger\\n\\n\\n\\n\\n\\n"}'
 
                 resp = self.client.post(f'https://3656kxpioifv7aumlcwe6zcqaa0eeiab.lambda-url.eu-central-1.on.aws/', data=data, params=params)
 
